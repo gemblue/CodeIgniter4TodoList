@@ -1,3 +1,4 @@
 # CodeIgniter 4 Todo List
 
-Mini sample project for learning CodeIgniter 4.
+Simple TodoList apps written in CodeIgniter 4.
+
