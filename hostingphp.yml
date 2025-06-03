@@ -1,0 +1,13 @@
+project_name: CI4 TodoList
+framework: codeigniter4
+database:
+  name: todolist
+  user: todolist
+  password: 12345
+  host: localhost
+  port: 3306
+commands:
+  - "composer install --no-dev --optimize-autoloader"
+  - "php spark migrate"
+  - "php spark cache:clear"
+  - "chmod -R 775 writable"
