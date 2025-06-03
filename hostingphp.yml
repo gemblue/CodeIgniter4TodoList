@@ -10,6 +10,6 @@ database:
   create_user: true
 commands:
   - "composer install --no-dev --optimize-autoloader"
-  - "php -d error_reporting=E_ALL^E_DEPRECATED spark migrate"
+  - "php spark migrate"
   - "php spark cache:clear"
   - "chmod -R 775 writable"
