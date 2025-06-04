@@ -1,5 +1,6 @@
 project_name: CI4 TodoList
 framework: codeigniter4
+php_version: "8.1"
 database:
   name: todolist
   user: todolist
